@@ -1,0 +1,160 @@
+sgemm_nt_128x128 plain [mnk=128 ]==> 19.073487 G FMAs/s, ms: 0.102400
+sgemm_nt_128x128 plain [mnk=256 ]==> 82.928200 G FMAs/s, ms: 0.188416
+sgemm_nt_128x128 plain [mnk=384 ]==> 186.588449 G FMAs/s, ms: 0.282624
+sgemm_nt_128x128 plain [mnk=512 ]==> 342.894132 G FMAs/s, ms: 0.364544
+sgemm_nt_128x128 plain [mnk=640 ]==> 520.564589 G FMAs/s, ms: 0.468992
+sgemm_nt_128x128 plain [mnk=768 ]==> 764.354966 G FMAs/s, ms: 0.551936
+sgemm_nt_128x128 plain [mnk=896 ]==> 1040.096286 G FMAs/s, ms: 0.644096
+sgemm_nt_128x128 plain [mnk=1024]==> 1373.505625 G FMAs/s, ms: 0.728064
+sgemm_nt_128x128 plain [mnk=1152]==> 882.269762 G FMAs/s, ms: 1.613824
+sgemm_nt_128x128 plain [mnk=1280]==> 1069.141632 G FMAs/s, ms: 1.826816
+sgemm_nt_128x128 plain [mnk=1408]==> 1316.743264 G FMAs/s, ms: 1.974272
+sgemm_nt_128x128 plain [mnk=1536]==> 1547.370216 G FMAs/s, ms: 2.181120
+sgemm_nt_128x128 plain [mnk=1664]==> 1228.509257 G FMAs/s, ms: 3.492864
+sgemm_nt_128x128 plain [mnk=1792]==> 1428.429232 G FMAs/s, ms: 3.751936
+sgemm_nt_128x128 plain [mnk=1920]==> 1214.814409 G FMAs/s, ms: 5.426176
+sgemm_nt_128x128 plain [mnk=2048]==> 1411.217542 G FMAs/s, ms: 5.668864
+sgemm_nt_128x128 plain [mnk=2176]==> 1264.957310 G FMAs/s, ms: 7.585792
+sgemm_nt_128x128 plain [mnk=2304]==> 1424.648750 G FMAs/s, ms: 7.995392
+sgemm_nt_128x128 plain [mnk=2432]==> 1333.045098 G FMAs/s, ms: 10.049536
+sgemm_nt_128x128 plain [mnk=2560]==> 1438.965434 G FMAs/s, ms: 10.858496
+sgemm_nt_128x128 plain [mnk=2688]==> 1385.408315 G FMAs/s, ms: 13.056000
+sgemm_nt_128x128 plain [mnk=2816]==> 1528.405234 G FMAs/s, ms: 13.606912
+sgemm_nt_128x128 plain [mnk=2944]==> 1464.238188 G FMAs/s, ms: 16.229376
+sgemm_nt_128x128 plain [mnk=3072]==> 1544.831656 G FMAs/s, ms: 17.477633
+sgemm_nt_128x128 plain [mnk=3200]==> 1496.100461 G FMAs/s, ms: 20.398081
+sgemm_nt_128x128 plain [mnk=3328]==> 1391.250035 G FMAs/s, ms: 24.674303
+sgemm_nt_128x128 plain [mnk=3456]==> 1399.215247 G FMAs/s, ms: 27.474943
+sgemm_nt_128x128 plain [mnk=3584]==> 267.523599 G FMAs/s, ms: 160.266235
+sgemm_nt_128x128 plain [mnk=3712]==> 1340.778975 G FMAs/s, ms: 35.527679
+sgemm_nt_128x128 plain [mnk=3840]==> 393.655539 G FMAs/s, ms: 133.960709
+sgemm_nt_128x128 plain [mnk=3968]==> 237.617968 G FMAs/s, ms: 244.870148
+sgemm_nt_128x128 plain [mnk=4096]==> 1443.418044 G FMAs/s, ms: 44.339199
+sgemm_nt_128x128 unroll2 [mnk=128] ==> 17.339533 G FMAs/s, ms: 0.112640
+sgemm_nt_128x128 unroll2 [mnk=256] ==> 72.660901 G FMAs/s, ms: 0.215040
+sgemm_nt_128x128 unroll2 [mnk=384] ==> 164.007683 G FMAs/s, ms: 0.321536
+sgemm_nt_128x128 unroll2 [mnk=512] ==> 298.460422 G FMAs/s, ms: 0.418816
+sgemm_nt_128x128 unroll2 [mnk=640] ==> 455.867243 G FMAs/s, ms: 0.535552
+sgemm_nt_128x128 unroll2 [mnk=768] ==> 624.223170 G FMAs/s, ms: 0.675840
+sgemm_nt_128x128 unroll2 [mnk=896] ==> 847.435986 G FMAs/s, ms: 0.790528
+sgemm_nt_128x128 unroll2 [mnk=1024] ==> 1126.369634 G FMAs/s, ms: 0.887808
+sgemm_nt_128x128 unroll2 [mnk=1152] ==> 867.950796 G FMAs/s, ms: 1.640448
+sgemm_nt_128x128 unroll2 [mnk=1280] ==> 1063.775013 G FMAs/s, ms: 1.836032
+sgemm_nt_128x128 unroll2 [mnk=1408] ==> 1285.408179 G FMAs/s, ms: 2.022400
+sgemm_nt_128x128 unroll2 [mnk=1536] ==> 1532.263279 G FMAs/s, ms: 2.202624
+sgemm_nt_128x128 unroll2 [mnk=1664] ==> 1135.314284 G FMAs/s, ms: 3.779584
+sgemm_nt_128x128 unroll2 [mnk=1792] ==> 1063.989567 G FMAs/s, ms: 5.037056
+sgemm_nt_128x128 unroll2 [mnk=1920] ==> 1198.975875 G FMAs/s, ms: 5.497856
+sgemm_nt_128x128 unroll2 [mnk=2048] ==> 1387.655410 G FMAs/s, ms: 5.765120
+sgemm_nt_128x128 unroll2 [mnk=2176] ==> 1189.339211 G FMAs/s, ms: 8.068096
+sgemm_nt_128x128 unroll2 [mnk=2304] ==> 1175.116981 G FMAs/s, ms: 9.693184
+sgemm_nt_128x128 unroll2 [mnk=2432] ==> 1294.144267 G FMAs/s, ms: 10.351616
+sgemm_nt_128x128 unroll2 [mnk=2560] ==> 1415.340742 G FMAs/s, ms: 11.039744
+sgemm_nt_128x128 unroll2 [mnk=2688] ==> 709.566816 G FMAs/s, ms: 25.491455
+sgemm_nt_128x128 unroll2 [mnk=2816] ==> 732.796272 G FMAs/s, ms: 28.380159
+sgemm_nt_128x128 unroll2 [mnk=2944] ==> 626.886495 G FMAs/s, ms: 37.907455
+sgemm_nt_128x128 unroll2 [mnk=3072] ==> 429.299949 G FMAs/s, ms: 62.893089
+sgemm_nt_128x128 unroll2 [mnk=3200] ==> 443.269239 G FMAs/s, ms: 68.846596
+sgemm_nt_128x128 unroll2 [mnk=3328] ==> 359.683265 G FMAs/s, ms: 95.439873
+sgemm_nt_128x128 unroll2 [mnk=3456] ==> 300.012325 G FMAs/s, ms: 128.139267
+sgemm_nt_128x128 unroll2 [mnk=3584] ==> 303.356078 G FMAs/s, ms: 141.335556
+sgemm_nt_128x128 unroll2 [mnk=3712] ==> 261.631410 G FMAs/s, ms: 182.068222
+sgemm_nt_128x128 unroll2 [mnk=3840] ==> 270.700925 G FMAs/s, ms: 194.806778
+sgemm_nt_128x128 unroll2 [mnk=3968] ==> 264.848046 G FMAs/s, ms: 219.694077
+sgemm_nt_128x128 unroll2 [mnk=4096] ==> 730.157252 G FMAs/s, ms: 87.652351
+sgemm_nt_128x128_lds_unroll8:[128 x 128  128 ] ==> 35.987710 G FMAs/s, ms: 0.054272
+sgemm_nt_128x128_lds_unroll8:[256 x 256  256 ] ==> 165.856399 G FMAs/s, ms: 0.094208
+sgemm_nt_128x128_lds_unroll8:[384 x 384  384 ] ==> 393.117677 G FMAs/s, ms: 0.134144
+sgemm_nt_128x128_lds_unroll8:[512 x 512  512 ] ==> 726.609009 G FMAs/s, ms: 0.172032
+sgemm_nt_128x128_lds_unroll8:[640 x 640  640 ] ==> 1151.780550 G FMAs/s, ms: 0.211968
+sgemm_nt_128x128_lds_unroll8:[768 x 768  768 ] ==> 1537.266043 G FMAs/s, ms: 0.274432
+sgemm_nt_128x128_lds_unroll8:[896 x 896  896 ] ==> 2038.070349 G FMAs/s, ms: 0.328704
+sgemm_nt_128x128_lds_unroll8:[1024 x 1024  1024 ] ==> 2697.686527 G FMAs/s, ms: 0.370688
+sgemm_nt_128x128_lds_unroll8:[1152 x 1152  1152 ] ==> 2203.577198 G FMAs/s, ms: 0.646144
+sgemm_nt_128x128_lds_unroll8:[1280 x 1280  1280 ] ==> 2740.443427 G FMAs/s, ms: 0.712704
+sgemm_nt_128x128_lds_unroll8:[1408 x 1408  1408 ] ==> 3371.422480 G FMAs/s, ms: 0.771072
+sgemm_nt_128x128_lds_unroll8:[1536 x 1536  1536 ] ==> 3805.887268 G FMAs/s, ms: 0.886784
+sgemm_nt_128x128_lds_unroll8:[1664 x 1664  1664 ] ==> 2957.265388 G FMAs/s, ms: 1.451008
+sgemm_nt_128x128_lds_unroll8:[1792 x 1792  1792 ] ==> 2786.882163 G FMAs/s, ms: 1.923072
+sgemm_nt_128x128_lds_unroll8:[1920 x 1920  1920 ] ==> 3132.506805 G FMAs/s, ms: 2.104320
+sgemm_nt_128x128_lds_unroll8:[2048 x 2048  2048 ] ==> 3547.910985 G FMAs/s, ms: 2.254848
+sgemm_nt_128x128_lds_unroll8:[2176 x 2176  2176 ] ==> 3148.791530 G FMAs/s, ms: 3.047424
+sgemm_nt_128x128_lds_unroll8:[2304 x 2304  2304 ] ==> 3012.908290 G FMAs/s, ms: 3.780608
+sgemm_nt_128x128_lds_unroll8:[2432 x 2432  2432 ] ==> 3447.300180 G FMAs/s, ms: 3.886080
+sgemm_nt_128x128_lds_unroll8:[2560 x 2560  2560 ] ==> 3730.755323 G FMAs/s, ms: 4.188160
+sgemm_nt_128x128_lds_unroll8:[2688 x 2688  2688 ] ==> 3211.044358 G FMAs/s, ms: 5.633024
+sgemm_nt_128x128_lds_unroll8:[2816 x 2816  2816 ] ==> 3468.143551 G FMAs/s, ms: 5.996544
+sgemm_nt_128x128_lds_unroll8:[2944 x 2944  2944 ] ==> 3797.530692 G FMAs/s, ms: 6.257664
+sgemm_nt_128x128_lds_unroll8:[3072 x 3072  3072 ] ==> 4069.638317 G FMAs/s, ms: 6.634496
+sgemm_nt_128x128_lds_unroll8:[3200 x 3200  3200 ] ==> 3857.406392 G FMAs/s, ms: 7.911424
+sgemm_nt_128x128_lds_unroll8:[3328 x 3328  3328 ] ==> 3888.141915 G FMAs/s, ms: 8.828928
+sgemm_nt_128x128_lds_unroll8:[3456 x 3456  3456 ] ==> 3513.226986 G FMAs/s, ms: 10.942464
+sgemm_nt_128x128_lds_unroll8:[3584 x 3584  3584 ] ==> 3739.070995 G FMAs/s, ms: 11.466752
+sgemm_nt_128x128_lds_unroll8:[3712 x 3712  3712 ] ==> 3944.905385 G FMAs/s, ms: 12.075008
+sgemm_nt_128x128_lds_unroll8:[3840 x 3840  3840 ] ==> 3710.260189 G FMAs/s, ms: 14.213120
+sgemm_nt_128x128_lds_unroll8:[3968 x 3968  3968 ] ==> 3759.300163 G FMAs/s, ms: 15.477760
+sgemm_nt_128x128_lds_unroll8:[4096 x 4096  4096 ] ==> 3602.097937 G FMAs/s, ms: 17.767424
+sgemm_nt_128x128_lds_unroll16:[128 x 128  128 ] ==> 38.146974 G FMAs/s, ms: 0.051200
+sgemm_nt_128x128_lds_unroll16:[256 x 256  256 ] ==> 181.652252 G FMAs/s, ms: 0.086016
+sgemm_nt_128x128_lds_unroll16:[384 x 384  384 ] ==> 436.427216 G FMAs/s, ms: 0.120832
+sgemm_nt_128x128_lds_unroll16:[512 x 512  512 ] ==> 808.412665 G FMAs/s, ms: 0.154624
+sgemm_nt_128x128_lds_unroll16:[640 x 640  640 ] ==> 1281.820285 G FMAs/s, ms: 0.190464
+sgemm_nt_128x128_lds_unroll16:[768 x 768  768 ] ==> 1783.494840 G FMAs/s, ms: 0.236544
+sgemm_nt_128x128_lds_unroll16:[896 x 896  896 ] ==> 2353.311508 G FMAs/s, ms: 0.284672
+sgemm_nt_128x128_lds_unroll16:[1024 x 1024  1024 ] ==> 3120.008019 G FMAs/s, ms: 0.320512
+sgemm_nt_128x128_lds_unroll16:[1152 x 1152  1152 ] ==> 2298.276255 G FMAs/s, ms: 0.619520
+sgemm_nt_128x128_lds_unroll16:[1280 x 1280  1280 ] ==> 2829.894072 G FMAs/s, ms: 0.690176
+sgemm_nt_128x128_lds_unroll16:[1408 x 1408  1408 ] ==> 3375.905528 G FMAs/s, ms: 0.770048
+sgemm_nt_128x128_lds_unroll16:[1536 x 1536  1536 ] ==> 4024.295977 G FMAs/s, ms: 0.838656
+sgemm_nt_128x128_lds_unroll16:[1664 x 1664  1664 ] ==> 3148.343295 G FMAs/s, ms: 1.362944
+sgemm_nt_128x128_lds_unroll16:[1792 x 1792  1792 ] ==> 3652.313164 G FMAs/s, ms: 1.467392
+sgemm_nt_128x128_lds_unroll16:[1920 x 1920  1920 ] ==> 3247.881823 G FMAs/s, ms: 2.029568
+sgemm_nt_128x128_lds_unroll16:[2048 x 2048  2048 ] ==> 3676.470388 G FMAs/s, ms: 2.176000
+sgemm_nt_128x128_lds_unroll16:[2176 x 2176  2176 ] ==> 3301.904149 G FMAs/s, ms: 2.906112
+sgemm_nt_128x128_lds_unroll16:[2304 x 2304  2304 ] ==> 3706.650151 G FMAs/s, ms: 3.073024
+sgemm_nt_128x128_lds_unroll16:[2432 x 2432  2432 ] ==> 3513.024824 G FMAs/s, ms: 3.813376
+sgemm_nt_128x128_lds_unroll16:[2560 x 2560  2560 ] ==> 3858.100823 G FMAs/s, ms: 4.049920
+sgemm_nt_128x128_lds_unroll16:[2688 x 2688  2688 ] ==> 3644.307014 G FMAs/s, ms: 4.963328
+sgemm_nt_128x128_lds_unroll16:[2816 x 2816  2816 ] ==> 3987.718172 G FMAs/s, ms: 5.215232
+sgemm_nt_128x128_lds_unroll16:[2944 x 2944  2944 ] ==> 3828.226755 G FMAs/s, ms: 6.207488
+sgemm_nt_128x128_lds_unroll16:[3072 x 3072  3072 ] ==> 4141.876738 G FMAs/s, ms: 6.518784
+sgemm_nt_128x128_lds_unroll16:[3200 x 3200  3200 ] ==> 3979.479565 G FMAs/s, ms: 7.668736
+sgemm_nt_128x128_lds_unroll16:[3328 x 3328  3328 ] ==> 3922.260550 G FMAs/s, ms: 8.752128
+sgemm_nt_128x128_lds_unroll16:[3456 x 3456  3456 ] ==> 3800.217111 G FMAs/s, ms: 10.116096
+sgemm_nt_128x128_lds_unroll16:[3584 x 3584  3584 ] ==> 4090.875969 G FMAs/s, ms: 10.480640
+sgemm_nt_128x128_lds_unroll16:[3712 x 3712  3712 ] ==> 4001.920653 G FMAs/s, ms: 11.902976
+sgemm_nt_128x128_lds_unroll16:[3840 x 3840  3840 ] ==> 3937.488665 G FMAs/s, ms: 13.392896
+sgemm_nt_128x128_lds_unroll16:[3968 x 3968  3968 ] ==> 3914.696629 G FMAs/s, ms: 14.863360
+sgemm_nt_128x128_lds_unroll16:[4096 x 4096  4096 ] ==> 3766.648605 G FMAs/s, ms: 16.991232
+sgemm_nt_128x128_lds_unroll8_double_buf:[128 x 128  128 ] ==> 34.059797 G FMAs/s, ms: 0.057344
+sgemm_nt_128x128_lds_unroll8_double_buf:[256 x 256  256 ] ==> 157.307109 G FMAs/s, ms: 0.099328
+sgemm_nt_128x128_lds_unroll8_double_buf:[384 x 384  384 ] ==> 370.492191 G FMAs/s, ms: 0.142336
+sgemm_nt_128x128_lds_unroll8_double_buf:[512 x 512  512 ] ==> 681.957072 G FMAs/s, ms: 0.183296
+sgemm_nt_128x128_lds_unroll8_double_buf:[640 x 640  640 ] ==> 1069.141632 G FMAs/s, ms: 0.228352
+sgemm_nt_128x128_lds_unroll8_double_buf:[768 x 768  768 ] ==> 1435.495822 G FMAs/s, ms: 0.293888
+sgemm_nt_128x128_lds_unroll8_double_buf:[896 x 896  896 ] ==> 1912.925598 G FMAs/s, ms: 0.350208
+sgemm_nt_128x128_lds_unroll8_double_buf:[1024 x 1024  1024 ] ==> 2543.131420 G FMAs/s, ms: 0.393216
+sgemm_nt_128x128_lds_unroll8_double_buf:[1152 x 1152  1152 ] ==> 2069.132685 G FMAs/s, ms: 0.688128
+sgemm_nt_128x128_lds_unroll8_double_buf:[1280 x 1280  1280 ] ==> 2570.550705 G FMAs/s, ms: 0.759808
+sgemm_nt_128x128_lds_unroll8_double_buf:[1408 x 1408  1408 ] ==> 3233.988648 G FMAs/s, ms: 0.803840
+sgemm_nt_128x128_lds_unroll8_double_buf:[1536 x 1536  1536 ] ==> 3658.044913 G FMAs/s, ms: 0.922624
+sgemm_nt_128x128_lds_unroll8_double_buf:[1664 x 1664  1664 ] ==> 2746.032114 G FMAs/s, ms: 1.562624
+sgemm_nt_128x128_lds_unroll8_double_buf:[1792 x 1792  1792 ] ==> 2611.659146 G FMAs/s, ms: 2.052096
+sgemm_nt_128x128_lds_unroll8_double_buf:[1920 x 1920  1920 ] ==> 2970.605319 G FMAs/s, ms: 2.219008
+sgemm_nt_128x128_lds_unroll8_double_buf:[2048 x 2048  2048 ] ==> 3438.600245 G FMAs/s, ms: 2.326528
+sgemm_nt_128x128_lds_unroll8_double_buf:[2176 x 2176  2176 ] ==> 2952.364199 G FMAs/s, ms: 3.250176
+sgemm_nt_128x128_lds_unroll8_double_buf:[2304 x 2304  2304 ] ==> 3196.367083 G FMAs/s, ms: 3.563616
+sgemm_nt_128x128_lds_unroll8_double_buf:[2432 x 2432  2432 ] ==> 3059.519267 G FMAs/s, ms: 4.378624
+sgemm_nt_128x128_lds_unroll8_double_buf:[2560 x 2560  2560 ] ==> 3259.728476 G FMAs/s, ms: 4.793344
+sgemm_nt_128x128_lds_unroll8_double_buf:[2688 x 2688  2688 ] ==> 2895.255750 G FMAs/s, ms: 6.247424
+sgemm_nt_128x128_lds_unroll8_double_buf:[2816 x 2816  2816 ] ==> 3145.825414 G FMAs/s, ms: 6.610944
+sgemm_nt_128x128_lds_unroll8_double_buf:[2944 x 2944  2944 ] ==> 3125.903857 G FMAs/s, ms: 7.602176
+sgemm_nt_128x128_lds_unroll8_double_buf:[3072 x 3072  3072 ] ==> 3303.369567 G FMAs/s, ms: 8.173472
+sgemm_nt_128x128_lds_unroll8_double_buf:[3200 x 3200  3200 ] ==> 3097.260164 G FMAs/s, ms: 9.853088
+sgemm_nt_128x128_lds_unroll8_double_buf:[3328 x 3328  3328 ] ==> 3110.946480 G FMAs/s, ms: 11.034624
+sgemm_nt_128x128_lds_unroll8_double_buf:[3456 x 3456  3456 ] ==> 2989.516058 G FMAs/s, ms: 12.859392
+sgemm_nt_128x128_lds_unroll8_double_buf:[3584 x 3584  3584 ] ==> 3066.733871 G FMAs/s, ms: 13.980672
+sgemm_nt_128x128_lds_unroll8_double_buf:[3712 x 3712  3712 ] ==> 3291.468649 G FMAs/s, ms: 14.472192
+sgemm_nt_128x128_lds_unroll8_double_buf:[3840 x 3840  3840 ] ==> 2988.880560 G FMAs/s, ms: 17.643520
+sgemm_nt_128x128_lds_unroll8_double_buf:[3968 x 3968  3968 ] ==> 3094.870523 G FMAs/s, ms: 18.800640
+sgemm_nt_128x128_lds_unroll8_double_buf:[4096 x 4096  4096 ] ==> 3054.740919 G FMAs/s, ms: 20.951040
